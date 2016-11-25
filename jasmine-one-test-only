@@ -1,0 +1,14 @@
+# How to run specified tests only
+
+When you have a large test suite with a lot of specs, in the development process, you may want to run the onces you are developing only for efficiency. 
+
+You can do this very easily. All you have to do is to use `fdescribe` or `fit`, where `f` stand for "force". If you have any forced tests in your suite, Jasmine will only run the forced tests and ignore all other tests.
+
+Remember to remove `f` after once you are done with the test. It works with any test runner.
+
+# How to ignore specified tests
+
+What if you want to ignore some tests? You can use `idescribe` or `iit` to ignore tests. `i` stand for `ignore`. 
+
+
+
