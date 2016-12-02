@@ -1,3 +1,4 @@
+# Named `<router-outlet>`
 I tried lazy loading and named router-outlet and found following characteristics:
 
 1. auxiliary routes must be children to a parent route with path not being ''. They won't work as children of empty path route.
