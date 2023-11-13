@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE instance-profile
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/product-profile.dtd">
+
+<instance-profile id="b"
+                 name="blog"
+                 start-page="starter-topic.md">
+
+    <toc-element topic="starter-topic.md">
+    </toc-element>
+    <toc-element topic="Test-Driven-Development.md">
+        <toc-element topic="Understanding-Unit-Test-From-The-Best-Book-On-The-Topic.md"/>
+        <toc-element topic="Testing-Ag-Grid-React’s-Custom-Cell-Renderer-Component.md"/>
+    </toc-element>
+</instance-profile>
