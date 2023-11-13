@@ -10,4 +10,8 @@
         <description>Created after removal of "TDD" from blog</description>
         <accepts>TDD.html</accepts>
     </rule>
+    <rule id="2f963daf">
+        <description>Created after removal of "toc-element[4]" from blog</description>
+        <accepts>blog.html</accepts>
+    </rule>
 </rules>
